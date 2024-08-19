@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets\imgs\logoWander.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>WMC Engenharia</title>
+</head>
+<body style="width: 100%;">
+    <header class="header row" style=" background-color: rgb(2, 2, 105);">
+        <div class="div-logo col d-flex">
+            <img class="img-logo" src="assets\imgs\logoWander.png" alt="Logo imagem" />
+        </div>
+        <div class="nav-header col d-flex justify-content-end">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#nossos-trabalhos">Nossos Trabalhos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sobre-nos">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#esclarecimento-de-duvidas">Esclarecimento de Dúvidas</a>
+                </li>
+              </ul>
+        </div>
+    </header>
+<div style="width: 100%;">
+    <div id="slide" class="carousel slide" data-bs-ride="carousel" style="width: 101%;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="6"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets\imgs\01_Sistemas_Eletricos.jpg" alt="imagem serviço 1" class="d-block w-100">
+                <div class="d-block carousel-caption">
+                    <h3 class="borda_texto">Instalação de Sistema Elétrico</h3>
+                    <button class="btn btn-warning" onclick="window.open('https://wa.me/556133260736')">Entrar em contato <i class="fa fa-whatsapp"></i></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets\imgs\02_Carregador_veicular.jpg" alt="imagem serviço 2" class="img-carro d-block w-100">
+                <div class="carousel-caption">
+                    <h3 class="borda_texto">Instalação de Carregador Veicular</h3>
+                    <button class="btn btn-warning" onclick="window.open('https://wa.me/556133260736')">Entrar em contato <i class="fa fa-whatsapp"></i></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets\imgs\03_Laudo_técnico.jpg" alt="imagem serviço 3" class="img-laudo d-block w-100">
+                <div class="carousel-caption_laudo">
+                    <h3 class="texto_laudo">Laudo Técnico</h3>
+                    <button class="btn btn-warning" onclick="window.open('https://wa.me/556133260736')">Entrar em contato <i class="fa fa-whatsapp"></i></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets\imgs\04_Consultoria_Tecnica.jpg" alt="imagem serviço 4" class="img-consultoria d-block w-100">
+              <div class="carousel-caption">
+                  <h3 class="borda_texto">Consultoria Técnica</h3>
+                  <button class="btn btn-warning" onclick="window.open('https://wa.me/556133260736')">Entrar em contato <i class="fa fa-whatsapp"></i></button>
+              </div>
+          </div>
+            <div class="carousel-item">
+              <img src="assets\imgs\05_Manutenção.jpg" alt="imagem serviço 5" class="img-manutencao d-block w-100">
+              <div class="carousel-caption">
+                  <h3 class="borda_texto">Manutenção Preventiva e Corretiva</h3>
+                  <button class="btn btn-warning" onclick="window.open('https://wa.me/556133260736')">Entrar em contato <i class="fa fa-whatsapp"></i></button>
+              </div>
+          </div>
+            <div class="carousel-item">
+              <img src="assets\imgs\06_Projetos.jpg" alt="imagem serviço 6" class="img-projetos d-block w-100">
+              <div class="carousel-caption">
+                  <h3 class="borda_texto">Projetos de Infraestrutura</h3>
+                  <button class="btn btn-warning" onclick="window.open('https://wa.me/556133260736')">Entrar em contato <i class="fa fa-whatsapp"></i></button>
+              </div>
+          </div>
+            <div class="carousel-item">
+              <img src="assets\imgs\articles-quizzes-vsat-network-topologies1-1437989155.png" alt="imagem serviço 7" class="img-satelite d-block w-100">
+              <div class="carousel-caption">
+                  <h3 class="borda_texto">Consultoria de Telecom via Satélite - ANATEL</h3>
+                  <button class="btn btn-warning" onclick="window.open('https://wa.me/556133260736')">Entrar em contato <i class="fa fa-whatsapp"></i></button>
+              </div>
+          </div>
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <h1 style="margin-left:10%;" id="nossos-trabalhos">Nossos Serviços</h1>
+    <p style="margin-left:10%; text-indent: 3ch;">Somos uma empresa especializada em engenharia elétrica. Com um Departamento de Engenharia, composto por engenheiros Eletricistas, Telecom e Civil. Atendemos em condomínios horizontal e vertical, shopping, residências, comércios e industrias. 
+    <br>Atendimento a todas as Normas Técnicas Brasileiras – ABNT.
+      </p>
+
+      <button class="btn btn-warning" style="margin-left: 5%; margin-bottom: 8px;" onclick="window.open('https://wa.me/556133260736')">Fale Conosco <i class="fa fa-whatsapp"></i></button>
+
+    <div class="row d-flex justify-content-center" >
+        <div class="card col-md-5">
+            <div class="card-body">
+              <h4 class="card-title"><strong>SISTEMA ELÉTRICO</strong></h4>
+              <p class="card-text"><b>O principal objetivo de uma instalação elétrica, além de fornecer a energia, é garantir a segurança das pessoas que usam o ambiente. Para isso as instalações elétricas precisam de proteção, revisão e manutenção para evitar acidentes e adequar a capacidade de transmissão de energia aos equipamentos existentes.</b></p>
+              <ul>
+                <li>Avaliação do sistema elétrico atual;</li>
+                <li>Execução de instalações elétricas residencial, predial e comercial;</li>
+                <li>Troca, readequação e modernização de todo o sistema elétrico;</li>
+                <li>Projetos de As built;</li>
+                <li>Correção de Problemas Técnicos;</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-md-5" style="margin-left: 8px;">
+            <div class="card-body">
+              <h4 class="card-title"><strong>MANUTENÇÃO PREVENTIVA E CORRETIVA</strong></h4>
+              <p class="card-text"><b>As manutenções são essenciais para garantir um bom funcionamento das instalações elétricas, evitando acidentes e paradas inesperadas em sua operação.</b>></p>
+              <ul>
+                <li>Instalações elétricas Industriais;</li>
+                <li>Instalações elétricas Prediais;</li>
+                <li>Instalações elétricas Comerciais;</li>
+                <li>Instalações elétricas Residenciais;</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+    <div class="row d-flex justify-content-center" style="margin-top: 24px;">
+        <div class="card col-md-5">
+            <div class="card-body">
+              <h4 class="card-title"><strong>LAUDO TÉCNICO DE INSTALAÇÕES</strong></h4>
+              <p class="card-text"><b>O laudo técnico das instalações elétricas é um documento que atesta a segurança e conformidade das instalações elétricas de uma edificação ou ambiente. Esse documento é de extrema importância para garantir a segurança de pessoas e patrimônio, além de atender às normas e regulamentações técnicas exigidas pelos órgãos competentes.</b>></p>
+              <ul>
+                <li>Centros de Medições de Energia;</li>
+                <li>Quadros de Distribuição de Energia;</li>
+                <li>SPDA e Aterramento;</li>
+                <li>Analise de Distribuição de Cargas;</li>
+                <li>Termografia;</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-md-5" style="margin-left: 8px;">
+            <div class="card-body">
+              <h4 class="card-title"><strong>CONSULTORIA TÉCNICA</strong></h4>
+              <p class="card-text"><b>Prestamos Consultoria e Assessoria Técnica para todos os assuntos de Engenharia Elétrica, solução e correção de quaisquer eventos nesta área de atuação, com ênfase para Proteção e Distribuição de Sistemas Elétricos.</b></p>
+              <ul>
+                <li>Acompanhamento de obras;</li>
+                <li>Instalação de Carros Elétricos em condomínios;</li>
+                <li>Supervisão de Equipes;</li>
+                <li>Fiscalização de Obras;</li>
+                <li>Apoio ao Síndico;</li>
+              </ul>
+            </div>
+          </div>
+    </div>
+    <div class="row d-flex justify-content-center" style="margin-top: 24px;">
+        <div class="card col-md-5">
+          <div class="card-body">
+            <h4 class="card-title"><strong>CARROS ELÉTRICOS</strong></h4>
+            <p class="card-text"><b>Atendemos todas as Normas Técnicas Nacionais e Internacionais</b></p>
+            <ul>
+              <li>Síndico, crie Regra para Instalações seguras em seu condomínio;</li>
+              <li>Proprietário, instale de Forma Segura seu Wallbox ou Carregador Elétrico;</li>
+              <li>Projetos, ART e Memorial Descritivo – Para o Proprietário;</li>
+              <li>Projetos e Caderno Técnico – Para Condomínio;</li>
+              <li>Fiscalização de Obras de Infraestrutura;</li>
+            </ul>
+          </div>
+          </div>
+          <div class="card col-md-5" style="margin-left: 8px;">
+            <div class="card-body">
+              <h4 class="card-title"><strong>PROJETOS DE INFRAESTRUTURA</strong></h4>
+              <p class="card-text"><b>Projetos em conformidade com legislações e normas técnicas.</b></p>
+              <ul>
+                <li>Projetos Elétricos;</li>
+                <li>Projeto de As-Built de instalações Elétricas executadas;</li>
+                <li>Projetos de Infraestrutura para Carros Elétricos;</li>
+              </ul>
+            </div>
+          </div>
+    </div>
+    <div class="row d-flex justify-content-center" style="margin-top: 24px;">
+        <div class="card col-md-5">
+            <div class="card-body">
+              <h4 class="card-title"><strong>CONSULTORIA DE TELECOM - ANATEL</strong></h4>
+              <p class="card-text"><b>Fica muito mais fácil, explorar os serviços de telecomunicações com a tranquilidade de uma empresa regularizada perante os órgãos e agentes fiscalizadores.</b></p>
+              <ul>
+                <li>Solicitação de outorga de serviços;</li>
+                <li>Licenciamento de estações terrenas fixas e móveis;</li>
+                <li>Lançamento de dados no Sistema Coleta de Dados da Anatel;</li>
+              </ul>
+            </div>
+          </div>
+    </div>
+    <hr>
+    <div class="row">
+    <div class="col">
+    <h1 style="margin-left:10%;" id="sobre-nos">Sobre nós</h1>
+    <p style="margin-left:10%;">Somos uma empresa especializada em engenharia elétrica, com profissionais capacitados e habilitados. 
+    <br>Nossos serviços técnicos de instalações e manutenções elétricas residencial, predial e comercial é realizado por profissionais experientes e de alto nível técnico, especializados em laudos, consultoria, manutenção, instalações, reparos e reformas elétricas.
+    <br>
+    <br><strong>Missão:</strong> Atender as normas técnicas brasileiras e internacionais, trazendo segurança e soluções acessíveis.
+    <br><strong>Visão:</strong> Trazer confiança e tranquilidade para nossos clientes e colaboradores, através de um atendimento profissional realizado pelo  
+    <br>departamento de engenharia e seu sócio administrador.
+    <br><strong>Valores:</strong> Qualidade técnica, compromisso, pontualidade e transparência.
+      </p>
+    </div>
+    <div class="col">
+      <img src="assets\imgs\image1.png" alt="">
+    </div>
+    </div>
+
+      <hr>
+    <h1 style="margin-left:10%;" id="esclarecimento-de-duvidas">Esclarecimento de Dúvidas</h1>
+    <div class="row" style=" margin-left: 5%; margin-top: 24px;">
+      <div class="card col-md-5">
+        <div class="card-body">
+          <h4 class="card-title"><strong>O que é serviço elétrico?</strong></h4>
+          <p class="card-text">Os serviços elétricos são um conjunto de atividades realizadas por profissionais especializados no campo da eletricidade. 
+            Esses serviços englobam diversas tarefas relacionadas à instalação, manutenção, reparo e atualização de sistemas elétricos em residências, empresas e outros tipos de edificações.</p>
+        </div>
+        </div>
+        <div class="card col-md-5" style="margin-left: 5%;">
+          <div class="card-body">
+            <h4 class="card-title"><strong>Como dividir os circuitos elétricos de uma residência?</strong></h4>
+            <p class="card-text">Os circuitos com pontos de luz e tomadas de uso geral devem ser racionalmente divididos pelos setores da unidade residencial (social, íntimo, serviço etc). 
+              Além disso, devem ser previstos circuitos exclusivos para tomadas de uso específico, como, por exemplo, de chuveiro, ar–condicionado, forno elétrico, forno de micro-ondas etc.</p>
+          </div>
+        </div>
+  </div>
+  <div class="row" style=" margin-left: 5%; margin-top: 24px;">
+    <div class="card col-md-5">
+      <div class="card-body">
+        <h4 class="card-title"><strong>Quando usar fase neutro e terra?</strong></h4>
+        <p class="card-text">O profissional explica que, basicamente, os fios fase e neutro são os responsáveis pela alimentação elétrica que propicia o funcionamento dos equipamentos, 
+          enquanto o fio terra garante a segurança das pessoas e da instalação, pois é parte das medidas de proteção contra choques elétricos e sobretensões.</p>
+      </div>
+      </div>
+      <div class="card col-md-5" style="margin-left: 5%;">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Quantos circuitos uma casa deve ter?</strong></h4>
+          <p class="card-text">Circuitos elétricos – A norma ABNT NBR 5410 – Instalações Elétricas de Baixa Tensão não estabelece um número específico de circuitos que uma instalação elétrica deve ter, 
+            mas orienta que sejam criados tantos circuitos quanto forem necessários para que a instalação funcione corretamente e com segurança.</p>
+        </div>
+      </div>
+</div>
+  <div class="row" style=" margin-left: 5%; margin-top: 24px;">
+    <div class="card col-md-5">
+      <div class="card-body">
+        <h4 class="card-title"><strong>Quando ligo o chuveiro e o disjuntor desarma o que pode ser?</strong></h4>
+        <p class="card-text">Quando um disjuntor desarma com o chuveiro ligado, é a proteção térmica que atua devido a sobrecarga no circuito. Isso não só no caso dos chuveiros, mas de qualquer outro circuito que estiver sobrecarregado.
+          Neste caso, faz-se necessário avaliar se a fiação e disjuntores existentes estão adequados para os equipamentos que estão sendo utilizados.
+          </p>
+      </div>
+      </div>
+      <div class="card col-md-5" style="margin-left: 5%;">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Quantos anos dura a fiação elétrica de uma casa?</strong></h4>
+          <p class="card-text">Os fabricantes costumam estimar a vida útil da fiação entre 20 a 25 anos, mas há condutores em perfeito estado com até 50 anos de uso. Por isso, 
+            o ideal é contratar um especialista para realizar inspeções periódicas nas instalações elétricas: a cada cinco anos em edificações residenciais e três anos nas comerciais.</p>
+        </div>
+      </div>
+</div>
+  <div class="row" style=" margin-left: 5%; margin-top: 24px;">
+    <div class="card col-md-5">
+      <div class="card-body">
+        <h4 class="card-title"><strong>O que é carregador Wallbox?</strong></h4>
+        <p class="card-text">O carregador Wallbox é um modelo instalado na parede ou totem, conectado a uma fonte de energia em tensões 220 ou 380 volts (V). 
+          Prático e simples, esse tipo trabalha em corrente alternada, com potência entre 7,4 e 22 quilowatts (kW) e carregamento de 2 a 12 horas.
+          </p>
+      </div>
+      </div>
+      <div class="card col-md-5" style="margin-left: 5%;">
+        <div class="card-body">
+          <h4 class="card-title"><strong>O que é preciso para instalar uma Wallbox?</strong></h4>
+          <p class="card-text">A instalação de um carregador Wallbox requer o trabalho de um eletricista qualificado que possa certificar que a instalação é segura.
+            Pode ser necessário realizar uma inspeção à residencia para determinar se é necessário realizar algum trabalho antes de instalar uma Wallbox.</p>
+        </div>
+      </div>
+</div>
+  <div class="row" style=" margin-left: 5%; margin-top: 24px;">
+    <div class="card col-md-5">
+      <div class="card-body">
+        <h4 class="card-title"><strong>O que é DR?</strong></h4>
+        <p class="card-text">O Dispositivo Diferencial Residual (DR) é um interruptor que desliga automaticamente a corrente elétrica quando identifica alguma fuga de corrente ou vazamento de energia dos condutores. 
+          Ele desarma o disjuntor onde ocorreu a falha, prevenindo eventuais choques elétricos.
+          </p>
+      </div>
+      </div>
+      <div class="card col-md-5" style="margin-left: 5%;">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Para que serve o DR?</strong></h4>
+          <p class="card-text">O dispositivo DR, ou Dispositivo Diferencial Residual, é responsável pela proteção contra os efeitos do choque elétrico por contato direto ou indireto. 
+            Sua principal função é proteger as pessoas de choques elétricos que podem ser causados por equipamentos conectados à rede elétrica.</p>
+        </div>
+      </div>
+</div>
+  <div class="row" style=" margin-left: 5%; margin-top: 24px;">
+    <div class="card col-md-5">
+      <div class="card-body">
+        <h4 class="card-title"><strong>O que a NBR 5410 fala sobre DR?</strong></h4>
+        <p class="card-text">A NBR 5410/97, que se aplica a instalações elétricas de baixa tensão, estabelece diretrizes importantes para o uso do DR como medida de segurança. Segundo essa norma, 
+          o DR é obrigatório nos seguintes casos: circuitos que atendem pontos de utilização em locais molhados com chuveiros ou banheiras.
+          </p>
+      </div>
+      </div>
+      <div class="card col-md-5" style="margin-left: 5%;">
+        <div class="card-body">
+          <h4 class="card-title"><strong>O que é DPS e para que serve?</strong></h4>
+          <p class="card-text">O DPS (dispositivo de proteção de surtos) é um equipamento de proteção elétrica essencial nas instalações elétricas. 
+            Ele é ligado entre as fases e o aterramento de proteção e tem a função de proteger a instalação na ocorrência de surtos causados por descargas atmosféricas.</p>
+        </div>
+      </div>
+</div>
+</div>
+</body>
+<hr>
+<footer>
+  <div class="row" style="margin-left:15%;">
+    <div class="col-4"><img style="width: 300px"src="assets\imgs\image1.png" alt="logo_footer"></div>
+    <div class="col-4">
+      <p>
+        <strong>Contato</strong>
+        <br>
+        <br>WhatsApp: 6133260736
+        <br>Celular: 61996166706
+        <br>e-mail: <a href="mailto:wmcorreiaengenharia@gmail.com">wmcorreiaengenharia@gmail.com</a>
+      </p>
+    </div>
+    <div class="col">
+      <div class="row">
+        <spam><strong>Redes Sociais</strong></spam>
+      </div>
+      <div class="row-2">
+        <button class="btn btn-warning" style="border-radius: 50px;" onclick="window.open('https://www.instagram.com/wmcengenharia/')"><i class="fa fa-instagram" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div style="margin-left: 5%;">
+    <p>Copyright © 2024 WMCEngenharia. Todos os direitos reservados. Desenvolvido por Emanuel Felipe with &#129505;</p>
+  </div>
+</footer>
+</html>

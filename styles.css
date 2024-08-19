@@ -1,0 +1,145 @@
+.img-logo{
+    width: 48px;
+    margin-left: 12%;
+}
+
+.nome-empresa{
+    font-family: "Poppins", sans-serif;
+    margin-left: 12px;
+}
+
+.borda_texto{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  }
+.texto_laudo{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1px 1px 1px 1px;
+  }
+
+.carousel-inner  {
+    width:640px;
+    height:400px;
+    overflow:hidden;
+    object-fit: contain;
+  }
+
+  .carousel-inner > .carousel-item > img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    min-width: 100%;
+    margin: 0 auto;
+  }
+  .carousel-inner > .carousel-item > .img-carro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    min-width: 100%;
+    margin: 0 auto;
+  }
+  .carousel-inner > .carousel-item > .img-laudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    min-width: 100%;
+    margin: 0 auto;
+  }
+  .carousel-inner > .carousel-item > .img-consultoria{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    min-width: 100%;
+    margin: 0 auto;
+  }
+  .carousel-inner > .carousel-item > .img-manutencao{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    min-width: 100%;
+    margin: 0 auto;
+  }
+  .carousel-inner > .carousel-item > .img-projetos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    min-width: 100%;
+    margin: 0 auto;
+  }
+  .carousel-inner > .carousel-item > .img-satelite{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    margin: 0 auto;
+  }
+
+  .carousel-inner > .carousel-item > .carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 600%);
+    min-width: 100%;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+  }
+  .carousel-inner > .carousel-item > .carousel-caption_laudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 320%);
+    /* min-width: 100%; */
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+  }
+
+  h1, h4, p, a{
+    font-family: "Poppins", sans-serif;
+  }
+  .card-text{
+    text-indent: 3ch;
+  }
+
+  @media (max-width: 767.98px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-header {
+        justify-content: center;
+    }
+
+    .carousel-caption {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+    }
+}
