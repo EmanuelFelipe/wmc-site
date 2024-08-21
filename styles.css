@@ -1,5 +1,5 @@
 .img-logo{
-    width: 64px;
+    width: 100px;
     margin-left: 12%;
 }
 
@@ -11,6 +11,7 @@
 .borda_texto{
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+  color:#EAA927;
   }
 .texto_laudo{
   -webkit-text-stroke-width: 1px;
